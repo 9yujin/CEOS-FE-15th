@@ -1,0 +1,153 @@
+{
+    "rooms": [
+        {
+            "roomId": 0,
+            "user": [{ "userId": 0 }, { "userId": 10 }],
+            "chat": [
+                {
+                    "userId": 10,
+                    "content": "인천이",
+                    "date": "2022-05-05T22:51:18+09:00",
+                    "like": false,
+                    "chatId": "example1"
+                },
+                {
+                    "userId": 10,
+                    "content": "천안보다 좋다",
+                    "date": "2022-05-05T22:51:25+09:00",
+                    "like": false,
+                    "chatId": "example2"
+                },
+                {
+                    "userId": 0,
+                    "content": "천안분들 어떡해",
+                    "date": "2022-05-05T22:52:18+09:00",
+                    "like": false,
+                    "chatId": "example3"
+                },
+                {
+                    "userId": 0,
+                    "content": "천안분들 난리나게...",
+                    "date": "2022-05-05T22:52:25+09:00",
+                    "like": false,
+                    "chatId": "example4"
+                },
+                {
+                    "userId": 10,
+                    "content": "다시 가!",
+                    "date": "2022-05-05T22:52:25+09:00",
+                    "like": false,
+                    "chatId": "example5"
+                }
+            ]
+        },
+        {
+            "roomId": 1,
+            "user": [{ "userId": 0 }, { "userId": 11 }],
+            "chat": [
+                {
+                    "userId": 0,
+                    "content": "형 내일 동묘 가기로 했어요",
+                    "date": "2022-05-04T22:11:18+09:00",
+                    "like": false,
+                    "chatId": "example6"
+                },
+                {
+                    "userId": 11,
+                    "content": "쓰~읍 난 좀 반댄데?",
+                    "date": "2022-05-04T22:12:23+09:00",
+                    "like": false,
+                    "chatId": "example7"
+                },
+                {
+                    "userId": 0,
+                    "content": "왜요?",
+                    "date": "2022-05-04T22:12:23+09:00",
+                    "like": false,
+                    "chatId": "example8"
+                }
+            ]
+        },
+        {
+            "roomId": 2,
+            "user": [{ "userId": 0 }, { "userId": 12 }],
+            "chat": [
+                {
+                    "userId": 0,
+                    "content": "가장 감명깊게 읽은 책 한번 얘기해봐요",
+                    "date": "2022-05-11T22:11:18+09:00",
+                    "like": false,
+                    "chatId": "example9"
+                },
+                {
+                    "userId": 12,
+                    "content": "돈키호테입니다",
+                    "date": "2022-05-11T22:12:23+09:00",
+                    "like": false,
+                    "chatId": "example10"
+                },
+                {
+                    "userId": 0,
+                    "content": "돈키호테 저자가 누구죠?",
+                    "date": "2022-05-11T22:12:40+09:00",
+                    "like": false,
+                    "chatId": "example11"
+                }
+            ]
+        },
+        {
+            "roomId": 3,
+            "user": [{ "userId": 0 }, { "userId": 13 }],
+            "chat": [
+                {
+                    "userId": 0,
+                    "content": "아부지 뭐하시노 너는",
+                    "date": "2022-05-11T23:25:18+09:00",
+                    "like": false,
+                    "chatId": "example12"
+                },
+                {
+                    "userId": 13,
+                    "content": "아버지.. 누워계십니다",
+                    "date": "2022-05-11T23:26:23+09:00",
+                    "like": false,
+                    "chatId": "example13"
+                },
+                {
+                    "userId": 0,
+                    "content": "왜??",
+                    "date": "2022-05-11T23:26:40+09:00",
+                    "like": false,
+                    "chatId": "example14"
+                }
+            ]
+        },
+        {
+            "roomId": 4,
+            "user": [{ "userId": 0 }, { "userId": 14 }],
+            "chat": [
+                {
+                    "userId": 14,
+                    "content": "What's your name?",
+                    "date": "2022-05-12T02:10:18+09:00",
+                    "like": false,
+                    "chatId": "example12"
+                },
+                {
+                    "userId": 0,
+                    "content": "스테파니",
+                    "date": "2022-05-12T02:10:23+09:00",
+                    "like": false,
+                    "chatId": "example13"
+                },
+                {
+                    "userId": 14,
+                    "content": "싸브레??",
+                    "date": "2022-05-12T02:11:40+09:00",
+                    "like": false,
+                    "chatId": "example14"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "users": [
+        {
+            "userId": 0,
+            "userName": "게스트",
+            "profileImage": "https://i.ibb.co/kBV7WsL/2022-05-05-10-58-23.png",
+            "statusMessage": "",
+            "myAccount": true
+        },
+        {
+            "userId": 10,
+            "userName": "박명수",
+            "profileImage": "https://i.ibb.co/SK2x480/2022-05-05-10-47-58.png",
+            "statusMessage": "북쪽에 계신 메리메리",
+            "myAccount": false
+        },
+        {
+            "userId": 11,
+            "userName": "데프콘",
+            "profileImage": "https://i.ibb.co/Jdmk2VM/2022-05-10-10-04-21.png",
+            "statusMessage": "",
+            "myAccount": false
+        },
+        {
+            "userId": 12,
+            "userName": "길성준",
+            "profileImage": "https://i.ibb.co/Wnt3NFK/2022-05-11-8-04-28-1.png",
+            "statusMessage": "나 이런게 무서워하네",
+            "myAccount": false
+        },
+        {
+            "userId": 13,
+            "userName": "정준하",
+            "profileImage": "https://i.ibb.co/0CT39hS/2022-05-11-8-19-41.png",
+            "statusMessage": "웃지마",
+            "myAccount": false
+        },
+        {
+            "userId": 14,
+            "userName": "유재석",
+            "profileImage": "https://i.ibb.co/RgBCJtd/2022-05-12-2-55-06.png",
+            "statusMessage": "",
+            "myAccount": false
+        }
+    ]
+}
