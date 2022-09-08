@@ -1,8 +1,46 @@
+안녕하세요, 한규진입니다. 다음주에 있는 전공 중간고사와 과제때문에 미리미리 해서 먼저 제출합니다..
+
+### 배포링크
+[https://react-messenger-15th-theta.vercel.app/](https://react-messenger-15th-theta.vercel.app/)
+
+대부분 기능을 카카오톡 pc 앱을 보며 최대한 비슷하게 보이도록 구현했으니 같이 보시면 더욱 재밌을 것 같습니다. 
+저번주 과제를 할때 확장을 최대한 고려하며 한 덕분에 그나마 과제하기 편했던 듯 하네요.
+
+카카오로그인 기능을 넣었습니다. react-kakao-login 이라는 개꿀 라이브러리가 있습니다. 
+로컬스토리지에 유저정보 값을 저장하고 새로고침해도 로그인이 유지되도록 했습니다. 
+리코일 상태를 초기화할때 애를 좀 먹었습니다. 어렵네요. [참고](https://www.npmjs.com/package/react-kakao-login)
+
+
+과제의 핵심은 라우팅 기능이라고 생각했습니다. 조금 더 실제 프로젝트에 가깝게끔 기능을 넣었습니다.
+
+- requireAuth 컴포넌트를 통해 로그인되어있지 않은 상태일 때 메인 페이지로 리다이렉트 시킵니다. 
+저런 컴포넌트도 HOC라고 부르는지는 모르겠습니다. [참고](https://reactrouter.com/docs/en/v6/examples/auth)
+- 채팅방에 url로 직접 접근할때도 메인페이지로 리다이렉트합니다. 
+채팅방은 메인페이지를 통해서만 접근할 수 있습니다. useNavigate에서 state를 넘길수 있습니다. [참고](https://reactrouter.com/docs/en/v6/api#usenavigate)
+- 그 외에 따로 지정되지 않은 url로 들어올때는 not found 페이지로 넘깁니다.
+
+리액트 라우터 돔 v6가 너무너무 익숙치 않습니다. 한줄한줄 쓸때마다 구글링을 엄청엄청 했네요. 
+과제를 하면서 덕분에 그나마 좀 친해진것 같습니다.
+
+css가 제일 어렵습니다. 이거만 아니었다면 시간이 절반은 줄었을텐데요. 으악. css없는 세상에 살고 싶습니다.
+
+
+### Key Question
+
+이전에는 페이지를 이동할때마다 새로 요청을 해서 받아와 페이지를 새로고침을 해야 했습니다. 
+**SPA**란 말그대로 page가 한개인 앱을 말합니다. 그 한 페이지 안에서 주소에 따라 다양한 화면을 렌더링할 수 있습니다. 
+그리고 그 주소에 따라 다른 화면을 보여주도록 하는것을 **Routing**이라고 합니다. 
+리액트 라우터 돔 문서가 꽤 잘되어있더군요.. 다행입니다.
+
+서버사이드렌더링에 대해서는 직접 공부해본적이 없어 아쉽습니다. 
+이전에 인강을 짤막하게 듣다 만적이 있었는데, 그때 적어놓았던 부분을 올려봅니다.
+
+<br/>
+
+```
 # 4주차 미션: React-Messenger 💌
 
 ## 서론
-
-안녕하세요 🙌🏻 15기 프론트 파트장 **김주현**입니다.
 
 이번주부터는 드디어 투두리스트에서 벗어나 새로운 프로젝트인 **messenger** 만들기를 진행합니다. 이번 미션은 저번 미션의 연장선으로, TypeScript와 다양한 React Hook에 익숙해지는 것을 목표로 합니다. 이번 주차에 중점적으로 사용하는 Hook은 React를 사용하면서 굉장히 자주 쓰이기 때문에 해당 부분을 중점적으로 공부해 보세요.
 
@@ -36,10 +74,4 @@
 - 메세지를 보내면 채팅방 하단으로 스크롤을 이동시킵니다. (Hint: useEffect + scrollTo)
 - 메세지에 유저 정보(프로필 사진, 이름)를 함께 표시합니다.
 - user와 message 데이터를 json 형식의 파일에 저장합니다.
-
-# 링크 및 참고자료
-
-- [React docs - Hook](https://ko.reactjs.org/docs/hooks-intro.html)
-- [React의 Hooks 완벽 정복하기](https://velog.io/@velopert/react-hooks#1-usestate)
-- [useEffect 완벽 가이드](https://overreacted.io/ko/a-complete-guide-to-useeffect/)
-- [리액트 프로젝트에서 타입스크립트 사용하기 (시리즈)](https://velog.io/@velopert/series/react-with-typescript)
+```
