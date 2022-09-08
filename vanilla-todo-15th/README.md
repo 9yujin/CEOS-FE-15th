@@ -39,12 +39,11 @@ https://vanilla-todo-9yujin.vercel.app/
 
 뜨거운 리뷰와 일침.. 부탁드립니다😁
 
-<br>
-
----
 
 <br>
+<br>
 
+```
 # 서론
 
 안녕하세요 🙌🏻 15기 프론트엔드 파트장 **김주현**입니다.
@@ -92,11 +91,4 @@ https://vanilla-todo-9yujin.vercel.app/
 - 외부 폰트([눈누 상업용 무료폰트](https://noonnu.cc/))로 입맛에 맞게 꾸밉니다.
 - 브라우저의 `localStorage` 혹은 `sessionStorage`를 이용하여 다음 번 접속 시에 기존의 투두 데이터를 불러옵니다.
 - 이 외에도 추가하고 싶은 기능이 있다면 마음껏 추가하셔도 됩니다.
-
-# 링크 및 참고자료
-
-- [HTML/CSS 기초](https://heropy.blog/2019/04/24/html-css-starter/)
-- [HTML 태그](https://heropy.blog/2019/05/26/html-elements/)
-- [FlexBox 가이드](https://heropy.blog/2018/11/24/css-flexible-box/)
-- [JS를 통한 DOM 조작](https://velog.io/@bining/javascript-DOM-%EC%A1%B0%EC%9E%91%ED%95%98%EA%B8%B0#append)
-- [localStorage, sessionStorage](https://www.daleseo.com/js-web-storage/)
+```
