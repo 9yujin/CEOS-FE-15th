@@ -1,7 +1,8 @@
 안녕하세요, 한규진입니다. 다음주에 있는 전공 중간고사와 과제때문에 미리미리 해서 먼저 제출합니다..
 
 ### 배포링크
-[https://react-messenger-15th-theta.vercel.app/](https://react-messenger-15th-theta.vercel.app/)
+- 4주차 : [https://9yujin.github.io/react-messenger-15th/](https://9yujin.github.io/react-messenger-15th/)
+- 5주차 : [https://react-messenger-15th-theta.vercel.app/](https://react-messenger-15th-theta.vercel.app/)
 
 대부분 기능을 카카오톡 pc 앱을 보며 최대한 비슷하게 보이도록 구현했으니 같이 보시면 더욱 재밌을 것 같습니다. 
 저번주 과제를 할때 확장을 최대한 고려하며 한 덕분에 그나마 과제하기 편했던 듯 하네요.
