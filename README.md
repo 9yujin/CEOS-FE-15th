@@ -19,3 +19,6 @@
 |  6   | Next.js & SSR                   | [Link](https://github.com/9yujin/react-blog-15th) | [Link](https://github.com/CEOS-Developers/react-blog-15th/pull/10) |
 |  7   | API Fetching & auth (서버 합동) | [Link](https://github.com/9yujin/react-vote-15th) | [Link](https://github.com/CEOS-Developers/react-vote-15th/pull/9) |
 |  8   | API 문서 발표 (서버 합동)       |                              -                               |                              -                               |
+
+
+- [5주차 과제 리팩토링](https://github.com/9yujin/react-messenger-16th) + [관련 포스팅](https://9yujin.tistory.com/84)
